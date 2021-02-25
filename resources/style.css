@@ -5,12 +5,16 @@ body {
     background-color: black;
     opacity: 0.9;
     text-align: center;
+    align-items: center;
     
 }
+
+    
 header {
     display: flex;
     position: fixed;
     top: 0;
+    border-bottom: 1px solid seashell;
 }
 
 #mission {
@@ -18,10 +22,9 @@ header {
     text-align: center;
     display: flex;
     margin-top: 69px;
-    border-bottom: 1px solid seashell;
     background-image: url(../resources/Images/img-mission-background.webp);
     height: 700px;
-    width: 1200px;
+    
 }
 
 #mission .content{
@@ -35,7 +38,7 @@ header {
     text-decoration: underline;
     font-family: Helvetica;
     color: black;
-    text-align: right;
+    float: right;
     display: inline-flex;
 }
 
@@ -67,6 +70,7 @@ div .content {
 #locations {
     height: 500px;
     background-image: url(../resources/Images/img-locations-background.webp)
+
 }
 
 #locations .location {
@@ -74,12 +78,19 @@ div .content {
     width: 300px;
     margin: 15px 20px 20px 20px;
     background-color: black;
+    text-align: center;
 }
 
 #locations h2 {
+    margin-top: 20px;
     opacity: 1;
 }
 
 #locations .location h3 p {
     opacity: 1;
+}
+
+footer {
+    text-align: left;
+    margin-left: 20px;
 }
