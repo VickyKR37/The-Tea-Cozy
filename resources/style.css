@@ -82,13 +82,13 @@ div .content {
     max-width: 1000px;
     overflow: hidden;
     display: flex;
+    margin: auto;
 }
 
 .item img {
     flex: 33.33%;
     height: 200px;
     width: 300px;
-    margin: 10px
 }
 
 #locations {
