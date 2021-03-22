@@ -81,14 +81,21 @@ div .content {
 #teas {
     max-width: 1000px;
     overflow: hidden;
-    display: flex;
     margin: auto;
 }
 
+.flex-container-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 .item img {
-    flex: 33.33%;
     height: 200px;
     width: 300px;
+}
+
+#teas span {
+    text-align: center;
 }
 
 #locations {
