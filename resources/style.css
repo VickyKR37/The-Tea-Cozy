@@ -96,6 +96,7 @@ div .content {
 
 #teas span {
     text-align: center;
+    display: block;
 }
 
 #locations {
